@@ -1,0 +1,128 @@
+body{margin:0;
+    padding:0;
+    background:url(backgrnds/green-chameleon-21532-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    font-family:sans-serif;}
+
+header{background-color:darkslategray;
+                padding:2px;
+				margin:0px;
+				height:20%;
+				font-size:28px;
+				color:white;
+                text-align:center;}
+
+.logo img{width:10%; height:90%;
+float:left;}
+
+hr {background-color: black;
+            border: 1px black;
+            height: 4px;}
+
+h1,h3,p{font-family:'Lemon', cursive;}
+
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); 
+}
+
+div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+}
+
+ul {font-size:20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ff531a;
+}
+
+.active {color:black;
+    background-color:mediumspringgreen;
+}
+
+.feedbox{width:480px;
+            height:640px;
+            background:#99ccff;
+            color:black;
+            top:110%;
+            left:50%;
+            position:absolute;
+            transform:translate(-50%,-50%);
+            box-sizing: border-box;
+            border-radius:5%;
+            padding:70px 30px;}
+
+.avatar{width:120px;
+        height:120px;
+        border-radius:48%;
+        position:absolute;
+        top:-50px;
+        left:calc(50% - 50px);}
+
+h4{margin:0;
+    padding:0 0 20px;
+    text-align:center;
+    font-size:26px;
+    color:black;}
+
+.feedbox p{margin:0;
+                padding:0;
+                font-weight:bold;}
+
+.feedbox input{width:100%;
+                    margin-bottom:20px;}
+
+.feedbox input[type="text"]{
+                        border:none;
+                        border-bottom:1px solid white;
+                        background:transparent;
+                        outline:none;
+                        height:40px;
+                        color:saddlebrown;
+                        font-size:16px;}
+textarea{border:none;
+                        border-bottom:1px solid white;
+                        background:transparent;
+                        outline:none;
+                        height:50px;
+                        color:saddlebrown;
+                        font-size:16px;}
+
+.feedbox input[type="submit"]
+{border:none;
+outline:none;
+height:40px;
+background:orangered;
+color:black;
+font-size:18px;
+border-radius:20px;}
+
+.feedbox input[type="submit"]:hover{
+    cursor:pointer;
+    background:limegreen;
+    color:black;}

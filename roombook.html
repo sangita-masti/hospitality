@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Room booking Margao</title>
+        <link rel="Icon" href="webicons/special/iconfinder_Warehouse_3992927.png">
+        <link rel="stylesheet" type="text/css" href="roombook.css">
+        <script type="text/javascript" src="rmfun.js"></script>
+        
+       <meta name="keywords" content="book_lodge_in_goa_india"/>
+        <meta name="keywords" content="book_lodge_in_margao"/>
+
+        <meta  name="author" content="Sangita_Mastiholi"/>
+        
+        <meta name="description" content="Please_fill_into_our_Room_form."/>
+        
+        
+        
+        <meta http-equiv="refresh" content="105"/>
+                                                                                     
+       <meta name="revised"  content="Hospitality_Facilitation_System,15/12/2019"/>  
+        
+    </head>
+    
+    <body>
+        
+        <hr>    
+            <ul>
+            <li><a href="index.html">HOME</a></li>
+	<li><a href="about.html">ABOUT</a></li>	
+            
+                <li><a class="active" href="index.html">FACILITIES</a></li>
+            <li><a href="feedback.html" target="_top">FEEDBACK</a></li>
+            <li><a href="contact.html" target="_top">CONTACT</a></li>
+            <li><a href="sitemap.html" target="_top">SITEMAP</a></li> 
+            </ul>
+        <hr>
+        
+         <div class="roombooking">
+            <img src="webicons/index.png" class="avatar">
+            <h1>Kindly Register to book a Room</h1>
+            <form name="roombkpg" method="POST" action="roomsave.php" onsubmit="return check()">
+                    <p>Name:</p>
+                    <input type="text" name="n1" placeholder="Enter your full name">
+                    <p>Gender:
+                    <input type="radio" name="n2" value="Male">Male <input type="radio" name="n2" value="Female">Female</p> <br>
+                    <p>E-mail:</p>
+                    <input type="text" name="n3" placeholder="Enter your Email-ID">
+                    <p>Contact:</p>
+                    <input type="text" name="n4" placeholder="Enter your mobile no.">
+                    <p>Aadhar ID/Passport no.:</p>
+                    <input type="text" name="n5" placeholder="Enter AadharID or Passport no."><br>
+                    <p>Nationality:</p>
+                    <input type="text" name="n6" placeholder="Enter your Nationality, eg.INDIAN,PORTUGUESE etc." required><br>
+                    <p>College/University:</p><br>
+                    <textarea rows="3" cols="32" name="n7" placeholder="Enter your College/Uni name"></textarea><br>
+                    <p>Room Code:
+                    <select name="n8">
+                        <option>M01</option>
+                        <option>M02</option>
+                        <option>M03</option>
+                        <option>M04</option>
+                        <option>M05</option>
+                        <option>P01</option>
+                        <option>P02</option>
+                        <option>P03</option>
+                        <option>P04</option>
+                    </select>
+                    </p>
+                   <br>
+                    <p>Date:
+                    <input type="date" name="n9"/><br>
+                    <br><p>.</p>
+                    <input type="submit" name="n10" value="Confirm">
+                
+            </form>
+            </div>
+    </body>
+</html>

@@ -1,0 +1,124 @@
+body{margin:0;
+    padding:0;
+    background:url(backgrnds/food.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    font-family:sans-serif;}
+
+hr {background-color: black;
+            border: 1px black;
+            height: 4px;}
+
+ul {font-size:20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ff531a;
+}
+
+.active {color:black;
+    background-color:mediumspringgreen;
+}
+
+div.head{
+    margin: 30px;
+    background-color: darkblue;
+    border: 1px solid black;
+    color:white;
+    opacity: 0.8;
+    filter: alpha(opacity=60); 
+}
+
+div.head p{
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+}
+
+
+
+div.transbox{
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); 
+}
+
+div.transbox p{
+    margin: 5%;
+    font-weight: bold;
+    color:darkblue;
+}
+
+
+div.menu {width:40%;
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black; 
+}
+
+div.menu p{
+    margin: 2%;
+    font-weight: bold;
+    color: #000000;
+}
+div.lunch {width:40%;
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black; 
+}
+
+div.lunch p {
+    margin: 2%;
+    font-weight: bold;
+    color: #000000;
+}
+
+div.dinner {width:40%; 
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black; 
+}
+
+div.dinner p {
+    margin: 2%;
+    font-weight: bold;
+    color: #000000;
+}
+
+.submit{
+border:none;
+outline:none;
+height:30px;
+background:red;
+color:white;
+font-size:18px;
+padding:6px;
+text-decoration:none;
+border-radius:12px;
+width:40%;
+cursor:pointer;}
+
+footer{background-color:black;
+   				 	color:white;
+   				 	margin:0;
+   				 	padding:10px;}

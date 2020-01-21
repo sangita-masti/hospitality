@@ -1,0 +1,80 @@
+body{margin:0;
+    padding:0;
+    background:url(backgrnds/rawpixel-577480-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    font-family:sans-serif;}
+
+header{background-color:darkslategray;
+				margin:0px;
+				height:15%;
+				font-size:26px;
+				color:white;
+                text-align:center;}
+
+.logo img{width:10%; height:90%;
+float:left;}
+
+hr {background-color: black;
+            border: 1px black;
+            height: 4px;}
+h2{color:white; font-size:30px;}
+h1,h2,h3,p{font-family:"Comic Sans MS", cursive, sans-serif;}
+table{width:55%;
+}
+
+th{background-color:lightgreen;
+    color:black;			
+    text-align:left;
+    padding:20px;}
+
+.headtp{background-color:darkred;
+    color:black;
+	padding:25px;}
+
+.tdsft{background-color:lightgray;
+    color:black;
+	padding:20px;}
+
+.tdst{background-color:lightskyblue;
+    color:black;
+	padding:20px;}
+
+img{width:95%; height:65%;
+border-radius:5px;}
+
+img:hover {
+    box-shadow: 4px 4px 2px 1px rgba(0, 20, 16, 0.5);}
+    
+ul {font-size:20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ff531a;
+}
+
+.active {color:black;
+    background-color:mediumspringgreen;
+}
+footer{background-color:black;
+   				 	color:white;
+   				 	margin:0;
+   				 	padding:10px;}
