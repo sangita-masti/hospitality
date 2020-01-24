@@ -2,7 +2,7 @@
      <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Shagun menu</title>
-        <link rel="Icon" href="webicons/special/menu_icon.png">
+        <link rel="Icon" href="webicons/special/menu_icon.png" alt="icon_of_menu_page" title="icon_of_menu_list">
         <link rel="stylesheet" type="text/css" href="menupage.css">
          
          
@@ -285,7 +285,7 @@
         
         <br>
            <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-               <a href="foodiesbookmargao.html" target="_top" class="submit">Book Foodies Facility</a> </p>
+               <a href="foodies_book_margao.html" target="_top" class="submit">Book Foodies Facility</a> </p>
         <br>  
          <footer>
             <marquee><p>* * * * * * * * * * * * * * Hospitality facilitation system Website 2020-2021 chowgules.ac.in * * * * * * * * </p></marquee>
